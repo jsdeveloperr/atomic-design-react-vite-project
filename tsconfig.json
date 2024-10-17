@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+      "jsx": "react-jsx", // This enables JSX for React 17+ (React 18, 19 will use this too)
+      "baseUrl": "./",
+      "paths": {
+        "@templates/*": ["src/components/templates/*"],
+        "@atoms/*": ["src/components/atoms/*"],
+        "@molecules/*": ["src/components/molecules/*"],
+        "@organisms/*": ["src/components/organisms/*"],
+        "@pages/*": ["src/pages/*"],
+        "@assets/*": ["src/assets/*"]
+      }
+      // Other TypeScript options
+    }
+  }
+  
