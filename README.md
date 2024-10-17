@@ -2,7 +2,7 @@
 # Atomic Design React + Vite Project
 
 <p align="center">
-    <img src="https://github.com/jsdeveloperr/atomic-design-react-vite-project/blob/master/src/assets/atomic-design-react-vite.jpg" width="500" alt="Atomic Design React Vite Project" />
+    <img src="https://github.com/jsdeveloperr/atomic-design-react-vite-project/blob/main/src/assets/atomic-design-react-vite.jpg" width="500" alt="Atomic Design React Vite Project" />
 </p>
 
 This project is an implementation of the Atomic Design methodology using React and Vite. It showcases a modular architecture for building scalable UI components, focusing on separation of concerns across different layers like atoms, molecules, and organisms.
