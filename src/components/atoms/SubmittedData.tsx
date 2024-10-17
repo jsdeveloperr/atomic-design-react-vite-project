@@ -6,7 +6,7 @@ type SubmittedDataProps = {
   password: string;
 };
 
-const SubmittedData: React.FC<SubmittedDataProps> = ({ email, password }) => {
+const SubmittedData = ({ email, password }: SubmittedDataProps) => {
   return (
     <div className="mt-4 p-4 bg-gray-100 rounded-lg">
       <h3 className="text-xl font-bold">Submitted Data:</h3>

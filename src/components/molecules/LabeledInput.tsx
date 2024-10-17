@@ -8,7 +8,7 @@ type LabeledInputProps = {
   onChange: (e: React.ChangeEvent<HTMLInputElement>) => void;
 };
 
-const LabeledInput: React.FC<LabeledInputProps> = ({ label, value, onChange }) => {
+const LabeledInput = ({ label, value, onChange }: LabeledInputProps) => {
   return (
     <div className="flex flex-col space-y-2">
       <label className="font-semibold text-gray-700">{label}</label>

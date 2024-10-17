@@ -2,7 +2,9 @@
 import React from 'react';
 import AuthTemplate from '@templates/AuthTemplate';
 
-const LoginPage: React.FC = () => {
+type LoginPageProps = {}; // You can define props if needed
+
+const LoginPage = (props: LoginPageProps) => {
   return <AuthTemplate />;
 };
 

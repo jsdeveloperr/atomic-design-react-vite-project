@@ -2,7 +2,9 @@
 import React from 'react';
 import LoginForm from '@organisms/LoginForm';
 
-const AuthTemplate: React.FC = () => {
+type AuthTemplateProps = {}; // You can define props if needed
+
+const AuthTemplate: React.FC = (props: AuthTemplateProps) => {
   return (
     <div className="min-h-screen flex items-center justify-center bg-gray-100">
       <div className="w-full max-w-md p-8 space-y-6 bg-white shadow-md rounded-lg">
